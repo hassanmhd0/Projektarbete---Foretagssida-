@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poetsen+One&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <div class="logo-search">
+        <div class="logo">
+          <a href="start.html">
+            <img src="img/logo-placeholder.png">
+          </a>
+        </div>
+        <input type="text" name="Sök" placeholder="Sök" class="search">
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-links">
+          <li><a href="start.html">Start</a></li>
+          <li><a href="products.html">Produkter</a></li>
+          <li><a href="about.html">Om oss</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="references.html">Referenser</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contact-page">
+        <div class="contact-head-background">
+          <h1>Kontakta oss</h1>
+        </div>
+        <div class="contact-boxes">
+          <div class="contact-info">
+            <div class="contact-info-head">
+            <h2>Kontaktuppgifter</h2>
+            </div>
+            <div class="icon-text-alignment">
+              <div class="contact-icons">
+                <a href="mailto:">
+                  <img src="img/Mail.png" alt="mail-ikon">
+                </a>
+                <a href="tel:">
+                  <img src="img/Telefon.png" alt="telefon-ikon">
+                </a>
+                <img src="img/klocka.png" alt="klocka-ikon">
+              </div>
+              <div class="contact-icons-text">
+                <p>Mail: </p>
+                <p>Telefon: 08 - 12345678999</p>
+                <p>Öppettider: 08:00 - 17:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <div class="contact-info-head">
+              <h2>Skicka din fråga</h2>
+            </div>
+            <form>
+              <label for="name">Ditt namn</label>
+              <input type="text" id="name" name="name">
+              <label for="email">Din epost</label>
+              <input type="email" id="email" name="email">
+              <label for="subject">Typ av ärende</label>
+              <select id="subject" name="subject">
+                <option value="choice">Välj...</option>
+                <option value="choice1">Hjälp med bokning</option>
+                <option value="choice2">Reklamation/ångerrätt</option>
+                <option value="choice3">Hantering av personuppgifter</option>
+                <option value="choice4">Synpunkter på webbplats</option>
+                <option value="choice5">Övrigt</option>
+              </select>
+              <label for="freetext">Ställ din fråga</label>
+              <textarea id="freetext" name="freetext" maxlength="500" placeholder="Max 500 tecken"></textarea>
+              <input type="submit" value="Skicka">
+            </form>
+          </div>
+        </div>
+        <div class="contact-location">
+          <h2>Besök oss!</h2>
+          <div class="contact-pin">
+            <img src="img/Kartnål.png" alt="kartnål-ikon">
+          </div>
+          <p>Sväng förbi oss och få hjälp med bokningar och frågor.</p><p>Vi finns på En Gata i Stan 14, 12345 Stockholm</p>
+          <div class="business-image">
+            <img src="img/utsidabyggnad.PNG" alt="Bild på utsidan av företagets kontor">
+          </div>
+        </div>
+      </div> 
+    </main>
+    <footer>
+      <div class="footer-socials">
+        <ul>
+          <li><a target="_blank" href="https://www.instagram.com/"><img src="img/black-instagram-icon.png"></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/?locale=sv_SE"><img src="img/facebook-square-black-icon.png"></a>
+          <li><a target="_blank" href="https://x.com/"><img src="img/x-social-media-black-icon.png"></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/"><img src="img/icons8-linkedin-50.png"></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/"><img src="img/youtube-icon.png"></a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="/start.html">Start</a></li>
+          <li><a href="/products.html">Produkter</a></li>
+          <li><a href="/references.html">Referenser</a></li>
+          <li><a href="/about.html">Om oss</a></li>
+          <li><a href="/contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-copyright">
+        <p>Copyright © Paketresor 2025</p>
+      </div>
+    </footer>
+</body>
+</html>
